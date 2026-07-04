@@ -1,0 +1,52 @@
+# build / package
+build/
+dist/
+*.skill
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+
+# forge session state (local dogfooding in this repo)
+.forge/
+
+# sqlite / temp
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.tmp
+*.swp
+*~
+
+# os
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# logs
+*.log
